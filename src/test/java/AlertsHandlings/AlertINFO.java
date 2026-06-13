@@ -17,6 +17,7 @@ public class AlertINFO {
 		// TODO Auto-generated method stub
 		
 		driver=new ChromeDriver();
+		////updated code
 
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 		Thread.sleep(2000);

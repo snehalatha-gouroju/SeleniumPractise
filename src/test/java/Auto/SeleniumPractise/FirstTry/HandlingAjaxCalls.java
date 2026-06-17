@@ -24,6 +24,7 @@ public class HandlingAjaxCalls {
 		WebDriverWait obj=new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement flipkart =obj.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Flipkart']")));
 		flipkart.click();
+///html
 		
 	
 	}

@@ -23,7 +23,7 @@ public class Alerts1 {
 		Thread.sleep(2000);// posivity scope like okay,done,true,yes
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 
 	}
 

@@ -37,7 +37,7 @@ public class AlertException {
 		
 		driver.switchTo().defaultContent();
 		
-		
+		///come to default page....
 		
 		WebElement PageHeading = driver.findElement(By.xpath("//div[@class='example']/h3[1]"));
 		String PageOnText=PageHeading.getText();

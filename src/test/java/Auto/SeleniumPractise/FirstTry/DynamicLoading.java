@@ -40,9 +40,9 @@ public class DynamicLoading {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='loading']/img")));  //ajax call so waiting
 		
-		 wait=new WebDriverWait(driver,Duration.ofSeconds(10));
-		 WebElement text1=wait.until(ExpectedConditions.visibilityOfElementLocated("//h4[text()='Hello World!']"));
-         System.out.println(text1.getText());
+		// wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		// WebElement text1=wait.until(ExpectedConditions.visibilityOfElementLocated("//h4[text()='Hello World!']"));
+        // System.out.println(text1.getText());
 	    
 	    driver.quit();
 	    

@@ -24,7 +24,10 @@ public class AxesR_S {
 	//following preceding
 	driver.findElement(By.xpath("//label[text()='Password']/following::div[1]/child::input[1]"));
 	driver.findElement(By.xpath("//label[text()='Repeat Password']/following::input[1]")); //following
-	driver.findElement(By.xpath("//label[text()='Password']/preceding::input[3]"));   //preceding 
+	driver.findElement(By.xpath("//label[text()='Password']/preceding::input[3]"));
+	//preceding
+
+		//System.out.println(Locators");
 	
 	}
 	

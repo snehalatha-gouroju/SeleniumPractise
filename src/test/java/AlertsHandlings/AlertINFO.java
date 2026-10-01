@@ -38,8 +38,10 @@ public class AlertINFO {
 		
 		WebElement text1= driver.findElement(By.xpath("//p[@id='result']"));
 		
-		String PageOnText =text1.getText();
-		System.out.println(PageOnText);
+		//String PageOnText =text1.getText();
+		//System.out.println(PageOnText);
+
+		System.out.println(text1.getText());
 	
 	
 	

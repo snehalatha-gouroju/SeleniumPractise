@@ -19,7 +19,7 @@ public class div {
 
         int res;
 
-        res = FirstNum / SecondNum;
+        res = FirstNum  / SecondNum;
 
         System.out.println("the sum of first and second number is :" +res);
     }

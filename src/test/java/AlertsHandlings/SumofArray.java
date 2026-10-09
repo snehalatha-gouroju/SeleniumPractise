@@ -3,16 +3,16 @@ package AlertsHandlings;
 public class SumofArray {
 
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            int[] numbers = {10, 20, 30, 40, 50};
-            int sum = 0;
+        int[] num = {10, 20, 30, 40, 50};
 
-            for (int i = 0; i < numbers.length; i++) {
-                sum = sum + numbers[i];
-            }
+        int sum = 0;
 
-            System.out.println("Sum = " + sum);
+        for (int i = 0; i < num.length; i++) {
+
+            sum = sum + num[i];
         }
+        System.out.println("Sum = " + sum);
     }
-
+}

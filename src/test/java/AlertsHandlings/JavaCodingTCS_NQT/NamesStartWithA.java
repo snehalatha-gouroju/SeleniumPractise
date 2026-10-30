@@ -10,6 +10,6 @@ public class NamesStartWithA {
 
         List<String> names= Arrays.asList("Anjali" ,"sneha" ,"swapna","sandhya");
 
-        names.stream().filter(name ->name.startsWith("A")).forEach(System.out::println);
+        names.stream().filter(names ->names.startsWith("A")).forEach(System.out::println);
     }
 }

@@ -11,7 +11,7 @@ public class CountOddNum {
 
 
 
-             numbers.stream().filter(n->n%2!=0).forEach(System.out::println);
+             numbers.stream().filter(num->num%2!=0).forEach(System.out::println);
     }
         }
 

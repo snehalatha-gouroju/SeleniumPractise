@@ -39,8 +39,12 @@ public class MultipleDropdown {
         
         List<WebElement> selectedOptions=ideDropdown.getAllSelectedOptions();
         for(WebElement option: selectedOptions) {
-        	System.out.println("Selected option is: "+option.getText());
+
+            System.out.println("Selected Option is: "+option.getText());
+
+
         }
+        System.out.println("Multiple Dropdown By using Select");
         
         
        
